@@ -1,0 +1,22 @@
+#words for hangman game
+
+words = ("aardvark", "alligator", "alpaca", "ant", "anteater", "antelope",
+    "ape", "armadillo", "baboon", "badger", "bat", "bear", "beaver",
+    "bison", "boar", "buffalo", "butterfly", "camel", "capybara",
+    "caribou", "cat", "caterpillar", "cheetah", "chicken", "chimpanzee",
+    "chinchilla", "cobra", "cougar", "cow", "coyote", "crocodile",
+    "crow", "deer", "dingo", "dog", "dolphin", "donkey", "duck",
+    "eagle", "eel", "elephant", "elk", "falcon", "ferret", "finch",
+    "fish", "flamingo", "fox", "frog", "gazelle", "giraffe", "goat",
+    "goose", "gorilla", "hamster", "hare", "hawk", "hedgehog", "hippo",
+    "horse", "hyena", "ibex", "iguana", "jackal", "jaguar", "jellyfish",
+    "kangaroo", "koala", "leopard", "lion", "lizard", "llama", "lobster",
+    "lynx", "mole", "monkey", "moose", "mouse", "mule", "octopus",
+    "opossum", "orangutan", "ostrich", "otter", "owl", "ox", "panda",
+    "panther", "parrot", "peacock", "pelican", "penguin", "pig",
+    "pigeon", "platypus", "polarbear", "porcupine", "rabbit", "raccoon",
+    "rat", "raven", "reindeer", "rhino", "salamander", "scorpion",
+    "seal", "shark", "sheep", "skunk", "sloth", "snake", "sparrow",
+    "spider", "squid", "squirrel", "swan", "tiger", "toad", "turkey",
+    "turtle", "vulture", "walrus", "weasel", "whale", "wolf", "wombat",
+    "woodpecker", "yak", "zebra")

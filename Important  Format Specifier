@@ -1,0 +1,35 @@
+====================================================
+        COMMON FORMAT SPECIFIER TYPES
+====================================================
+
+1. NUMERIC FORMAT SPECIFIERS
+----------------------------------------------------
+Specifier   Type                     Example            Output
+----------------------------------------------------
+d           Integer                  {42:d}             42
+f           Float (decimal)          {3.14159:f}        3.141590
+.2f         Float with 2 decimals    {3.14159:.2f}     3.14
+,           Thousands separator      {12345:,d}         12,345
+e           Scientific notation      {1500:e}           1.500000e+03
+%           Percentage               {0.85:%}           85.000000%
+.1%         Percentage (1 decimal)   {0.85:.1%}         85.0%
+
+
+2. STRING FORMAT SPECIFIERS
+----------------------------------------------------
+Specifier   Purpose                  Example            Output
+----------------------------------------------------
+s           String                   {name:s}           John
+>10         Right-align in 10 spaces {name:>10}         John
+<10         Left-align in 10 spaces  {name:<10}         John
+^10         Center in 10 spaces      {name:^10}         John
+
+
+3. PADDING & WIDTH
+----------------------------------------------------
+Specifier   Purpose                  Example            Output
+----------------------------------------------------
+05d         Pad with zeros           {42:05d}           00042
+10          Width of 10              {42:10}            42
++d          Show sign                {42:+d}            +42
+====================================================
